@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sign up for NovaBook Pro concept updates.">
+
+    <title>Product Updates — NovaBook Pro</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body id="top">
+
+    <header class="site-header">
+        <div class="container nav-wrap">
+
+            <a class="brand" href="index.html">
+                <span class="brand-mark">N</span>
+                <span>nova<span class="brand-muted">book</span></span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Open navigation"
+                aria-expanded="false"
+                aria-controls="main-navigation"
+            >
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="site-nav" id="main-navigation" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="product.html">Product</a>
+                <a href="features.html">Features</a>
+                <a href="reviews.html">Reviews &amp; FAQ</a>
+                <a class="nav-cta active" href="updates.html">
+                    Get updates <span>↗</span>
+                </a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="updates-hero section-space">
+            <div class="container updates-grid">
+
+                <div class="updates-intro">
+                    <p class="eyebrow">
+                        <span class="eyebrow-dot"></span>
+                        A note from NovaBook
+                    </p>
+
+                    <h1>
+                        Good things are
+                        <span>taking shape.</span>
+                    </h1>
+
+                    <p class="lead">
+                        Sign up to try the NovaBook Pro concept updates
+                        experience. We'll show you what a subscription
+                        flow could look like — no spammy promises,
+                        no confusing fine print.
+                    </p>
+
+                    <ul class="check-list">
+                        <li>
+                            <span>✓</span>
+                            Occasional concept and design updates
+                        </li>
+                        <li>
+                            <span>✓</span>
+                            New page and feature announcements
+                        </li>
+                        <li>
+                            <span>✓</span>
+                            A simple, easy-to-understand signup experience
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="signup-card">
+
+                    <div class="signup-symbol">N</div>
+
+                    <p class="eyebrow">THE NOVABOOK NOTE</p>
+
+                    <h2>Keep me in the loop.</h2>
+
+                    <p class="body-copy">
+                        Enter your email below to try the signup experience.
+                    </p>
+
+                    <form id="updates-form" novalidate>
+
+                        <label for="email">Email address</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            autocomplete="email"
+                            aria-describedby="form-message"
+                            required
+                        >
+
+                        <label class="consent-label" for="consent">
+                            <input
+                                type="checkbox"
+                                id="consent"
+                                name="consent"
+                                required
+                            >
+
+                            <span>
+                                I understand this is a demo signup and
+                                my email will not be stored or sent.
+                            </span>
+                        </label>
+
+                        <button
+                            class="button button-dark button-full"
+                            type="submit"
+                        >
+                            Sign me up <span>↗</span>
+                        </button>
+
+                        <p
+                            class="form-message"
+                            id="form-message"
+                            role="status"
+                            aria-live="polite"
+                        ></p>
+
+                        <p class="signup-note">
+                            Demo only · No email is collected or sent.
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section-tint section-space">
+            <div class="container updates-bottom">
+
+                <div>
+                    <p class="eyebrow">TRANSPARENT BY DESIGN</p>
+                    <h2>What happens after I click?</h2>
+                </div>
+
+                <div class="steps">
+
+                    <article>
+                        <span>01</span>
+                        <div>
+                            <h3>Your email is checked</h3>
+                            <p>
+                                The form checks that your email address
+                                looks valid and that you have agreed
+                                to the demo notice.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <span>02</span>
+                        <div>
+                            <h3>You see a confirmation</h3>
+                            <p>
+                                A message appears on this page so you can
+                                see how the signup experience works.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <span>03</span>
+                        <div>
+                            <h3>No actual subscription is created</h3>
+                            <p>
+                                This frontend-only project does not save
+                                email addresses, send messages, or add
+                                anyone to a mailing list.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-main">
+
+            <a class="brand" href="index.html">
+                <span class="brand-mark">N</span>
+                <span>nova<span class="brand-muted">book</span></span>
+            </a>
+
+            <p>
+                Thoughtful technology for<br>
+                whatever comes next.
+            </p>
+
+            <div class="footer-links">
+                <a href="product.html">Product</a>
+                <a href="features.html">Features</a>
+                <a href="reviews.html">Reviews &amp; FAQ</a>
+                <a href="updates.html">Contact / Updates</a>
+            </div>
+
+        </div>
+
+        <div class="container footer-bottom">
+            <span>© 2026 NovaBook Pro. Student concept project.</span>
+            <span>MADE WITH CURIOSITY ♥</span>
+            <a href="#top" data-top>BACK TO TOP ↑</a>
+        </div>
+    </footer>
+
+</body>
+</html>
